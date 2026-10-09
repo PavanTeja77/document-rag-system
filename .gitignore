@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+.venv-*/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Generated vector databases
+vectorstore/
+**/vectorstore/
+chroma.sqlite3
+*.sqlite3
+
+# Local research papers and datasets
+data/papers/*.pdf
+data/datasets/
+
+# Editor files
+.vscode/
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+.DS_Store
+Thumbs.db
